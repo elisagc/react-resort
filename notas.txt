@@ -1,0 +1,4 @@
+
+Para importar de node-modules: yarn add node-sass
+No olvidar que cuando se crea un fichero nuevo en sass se tiene que añadir en main.scss
+Importar sass en index.tsx: import "./sass/main.scss";
