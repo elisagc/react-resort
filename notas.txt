@@ -1,4 +1,12 @@
 
-Para importar de node-modules: yarn add node-sass
+Para importar de node-modules: yarn add node-sass,react-router-dom
 No olvidar que cuando se crea un fichero nuevo en sass se tiene que añadir en main.scss
 Importar sass en index.tsx: import "./sass/main.scss";
+
+--------------
+
+Routing:
+import { BrowserRouter as Router } from "react-router-dom"; // Importar BrowserRouter en index.tsx
+import { Route } from "react-router"; // Importar Route en App
+Creado test.tsx dentro de utils
+Creado test Router01 y 02
