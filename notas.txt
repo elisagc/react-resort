@@ -1,6 +1,16 @@
-Hero:
-Creado Hero test
-El componete recibe un React.ReactNode que es hijo del componente {children}
-(puede ser un div, otro componente...)
-y recibe un string como className
+Banner:
 
+En home:
+ <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299">
+  <Link to="/rooms" className="btn-primary">
+    our rooms
+  </Link>
+</Banner>
+
+Link es {children}
+
+crea en Rooms.tsx el boton que lleva a home
+Da estilo en _Banner.scss y en _utilities a los <Link>
+Cambia la clase en _Hero.scss porque la ha cambiado
+Crea Rooms.tsx y Error.tsx
+Modificado test hero
