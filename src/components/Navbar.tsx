@@ -14,9 +14,9 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar" data-testid="navbar">
+      <nav className="nav" data-testid="navbar">
         <div className="nav__left">
-          <Link data-testid="logo" to="/">
+          <Link to="/" data-testid="logo">
             <img src={logo} alt="Beach Resort" />
           </Link>
           <ul

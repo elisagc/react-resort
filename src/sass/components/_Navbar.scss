@@ -27,17 +27,17 @@
   }
 
   &__icon {
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: $primary-color;
-    width: 3rem;
-    height: 3rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   &__links,
   &__links-show {
     height: 0;
     overflow: hidden;
-    transition: $main-transition; // all 0.3s linear;
+    transition: $main-transition;
     list-style-type: none;
 
     &-show {
@@ -45,6 +45,7 @@
     }
 
     a {
+      // es home y rooms
       display: block;
       text-decoration: none;
       padding: 1rem 0;

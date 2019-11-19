@@ -1,28 +1,6 @@
+Hero:
+Creado Hero test
+El componete recibe un React.ReactNode que es hijo del componente {children}
+(puede ser un div, otro componente...)
+y recibe un string como className
 
-Para importar de node-modules: yarn add node-sass,react-router-dom
-No olvidar que cuando se crea un fichero nuevo en sass se tiene que añadir en main.scss
-Importar sass en index.tsx: import "./sass/main.scss";
-
---------------
-
-Routing:
-import { BrowserRouter as Router } from "react-router-dom"; // Importar BrowserRouter en index.tsx
-import { Route } from "react-router"; // Importar Route en App
-Creado test.tsx dentro de utils
-Creado test Router01 y 02
-
-Navbar Logo:
-Import <Link> from "react-router-dom";
-añade la imagen logo y la envuelve con <Link>
-importa en Router.test import userEvent y 
-crea el test "after click on logo navigate to home page"
-
-Navbar Links:
-crea dos div en navbar:
-izquierdo con logo y un ul que cambia el nombre de su className según el estado
-en el derecho un button que contiene un FaAlingRight que es de la librería react-icons
-
-scss: 
-sass/abstracts/_mixins.scss
-src/sass/base/_utilities.scss
-sass/components/_Navbar.scss 
