@@ -9,6 +9,10 @@
 
   &__left {
     float: left;
+
+    img {
+      width: 100px;
+    }
   }
 
   &__right {
@@ -33,7 +37,7 @@
   &__links-show {
     height: 0;
     overflow: hidden;
-    transition: $main-transition;
+    transition: $main-transition; // all 0.3s linear;
     list-style-type: none;
 
     &-show {
