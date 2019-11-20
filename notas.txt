@@ -7,3 +7,5 @@ Crea en component Title.tsx
 Crea en container Services.tsx
 Crea en src la carpeta fakedata que contiene service.ts que contiene los datos que irán dentro de cada caja con un nombre de icono
 Crea en la carpeta utils el fichero mockFetch.ts que simula la llamada a una api
+
+Añadido estilo en Service.scss
