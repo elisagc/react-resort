@@ -1,4 +1,5 @@
 Slider:
 
 Crea el componente Slider y el test
-En components/Service importa el Slider y modifica el componente entero 
+En components/Service importa el Slider y modifica el componente entero.
+CSS Slider
