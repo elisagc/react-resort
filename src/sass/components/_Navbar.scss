@@ -7,12 +7,11 @@
   background: $off-white;
   z-index: 1;
 
+  img {
+    width: 100px;
+  }
   &__left {
     float: left;
-
-    img {
-      width: 100px;
-    }
   }
 
   &__right {
@@ -27,10 +26,10 @@
   }
 
   &__icon {
-    font-size: 5rem;
+    font-size: 2.5rem;
     color: $primary-color;
-    width: 10rem;
-    height: 10rem;
+    width: 100px;
+    height: 100px;
   }
 
   &__links,
@@ -45,7 +44,6 @@
     }
 
     a {
-      // es home y rooms
       display: block;
       text-decoration: none;
       padding: 1rem 0;

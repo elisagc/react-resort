@@ -1,11 +1,58 @@
-// grid
-
-$cols: 12;
-
 .slider {
+  position: relative;
+  overflow: hidden;
+  background-color: orange;
+
+  .row {
+    background-color: crimson;
+  }
+
+  &-transitioning-right {
+    [class^="col-"] {
+      animation: slideRight 0.5s ease-out 0.2s;
+    }
+
+    [class^="col-"]:first-child {
+      animation: slideRightFirst 0.5s ease-out 0.2s;
+    }
+  }
+
+  &-transitioning-left {
+    [class^="col-"] {
+      animation: slideLeft 0.5s ease-out 0.2s;
+    }
+
+    [class^="col-"]:last-child {
+      animation: slideLeftFirst 0.5s ease-out 0.2s;
+    }
+  }
+
+  [class^="col-"]:first-child {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+  }
+
+  [class^="col-"]:last-child {
+    position: absolute;
+    right: 0;
+    transform: translateX(+100%);
+  }
+
+  .col-without-margin {
+    margin-right: 0 !important;
+  }
+
   &-center {
     width: 90vw;
     margin: 0 auto;
+    background-color: red;
+    display: flex;
+    @include clearfix;
+
+    .col-1-of-4 {
+      background-color: blue;
+    }
   }
 
   &-arrows {
@@ -23,10 +70,4 @@ $cols: 12;
       top: 50%;
     }
   }
-}
-
-//lo añado yo
-
-.service-box-eli {
-  display: flex;
 }
