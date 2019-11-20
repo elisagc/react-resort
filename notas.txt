@@ -1,11 +1,4 @@
-Services:
+Slider:
 
-Crea la carpeta types en src: con service.ts, que contiene los tipos de typescript
-Crea en component Services.tsx
-Crea en component Service.tsx
-Crea en component Title.tsx
-Crea en container Services.tsx
-Crea en src la carpeta fakedata que contiene service.ts que contiene los datos que irán dentro de cada caja con un nombre de icono
-Crea en la carpeta utils el fichero mockFetch.ts que simula la llamada a una api
-
-Añadido estilo en Service.scss
+Crea el componente Slider y el test
+En components/Service importa el Slider y modifica el componente entero 
