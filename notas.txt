@@ -1,16 +1,9 @@
-Banner:
+Services:
 
-En home:
- <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299">
-  <Link to="/rooms" className="btn-primary">
-    our rooms
-  </Link>
-</Banner>
-
-Link es {children}
-
-crea en Rooms.tsx el boton que lleva a home
-Da estilo en _Banner.scss y en _utilities a los <Link>
-Cambia la clase en _Hero.scss porque la ha cambiado
-Crea Rooms.tsx y Error.tsx
-Modificado test hero
+Crea la carpeta types en src: con service.ts, que contiene los tipos de typescript
+Crea en component Services.tsx
+Crea en component Service.tsx
+Crea en component Title.tsx
+Crea en container Services.tsx
+Crea en src la carpeta fakedata que contiene service.ts que contiene los datos que irán dentro de cada caja con un nombre de icono
+Crea en la carpeta utils el fichero mockFetch.ts que simula la llamada a una api
